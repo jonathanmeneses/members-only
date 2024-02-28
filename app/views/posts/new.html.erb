@@ -13,8 +13,13 @@
         </ul>
     </div>
     <% end %>
-
+        <h1>
+            <%= current_user[:id] %>
+                Hello
+        </h1>
         <%= form_with model: @post do |form| %>
+
+
             <%= label_tag(:title, "Title" ) %>
                 <%= form.text_field :title, placeholder: "Title of your Post" %>
                     <br>
