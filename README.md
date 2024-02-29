@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a [project](https://www.theodinproject.com/lessons/ruby-on-rails-members-only) for [The Odin Project](https://www.theodinproject.com)'s Ruby on Rails track. 
 
-Things you may want to cover:
+The purpose of this project is to implement various authentication systems using the Devise gem.
 
-* Ruby version
+## Using this repo
 
-* System dependencies
+I don't recommend you use this repo yourself. This is first and foremost a learning exercise, regardless of how it may be used in the future. If you want to learn authentication, I recommend following along with The Odin Project's curriculum!
 
-* Configuration
+## Contact Me
 
-* Database creation
+If you have any questions about The Odin Project or my learning journey, feel free to reach out by [e-mail](mailto:jonathan.m.meneses@gmail.com?subject=The%20Odin%20Project:%20Authentication) or connect with me on [LinkedIn](https://www.linkedin.com/in/jonathan-m-meneses/).
 
-* Database initialization
+Thanks for stopping by!
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+# TODOs
 
-* Deployment instructions
-
-* ...
+* TODO: Update with actual production domain when available

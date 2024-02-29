@@ -1,0 +1,16 @@
+<h1>
+    <%= @post.title %>
+</h1>
+<h2>
+    by <%=user_signed_in? ? @post.user.name || "User" : "anonymous" %>
+</h2>
+
+<p>
+    <%= @post.body %>
+</p>
+
+<%= button_to("Back to Home" , posts_path, method: :get) %>
+    <% if !user_signed_in? %>
+        <%= link_to "Sign in to see author details!" , new_user_session_path %>
+
+            <% end %>
